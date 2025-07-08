@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Xcode & SwiftPM
+DerivedData/
+.build/
+xcuserdata/
+*.xcworkspace
+*.xcuserstate
+
+# CocoaPods / Carthage
+Pods/
+Carthage/
+
+# Logs
+*.log

